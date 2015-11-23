@@ -1,0 +1,13 @@
+{
+  "files": [
+    {"pattern": "lib/require.js", "instrument": false},
+    {"pattern": "src/**/*.js", "load": false},
+    {"pattern": "test/test-main.js", "instrument": false}
+  ],
+
+  "tests": [
+    {"pattern": "test/**/*Spec.js", "load": false}
+  ],
+  "testFramework" : "jasmine",
+  "debug" : true
+}
